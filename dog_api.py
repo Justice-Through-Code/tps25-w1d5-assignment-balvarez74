@@ -116,7 +116,7 @@ def main():
                         print(f"The {breed} has no sub-breeds.")
                         break
                     else:
-                        print(f"Available sub-breed(s) for {breed}: {" , ".join(sub_breeds)}")
+                        print(f"Available sub-breed(s) for {breed}: {' , '.join(sub_breeds)}")
                         while True:
                             sub_breed = input("Enter sub-breed name: ").strip().lower()
                             if sub_breed in sub_breeds:
